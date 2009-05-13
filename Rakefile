@@ -7,7 +7,7 @@ end
 
 spec = Gem::Specification.new do |s|
   s.name              = "mysql_view_support"
-  s.version           = "0.1.0"
+  s.version           = "0.1.1"
   s.summary           = "Provides view creation support to rails."
   s.author            = "Tom Lea"
   s.email             = "contrib@tomlea.co.uk"
@@ -15,7 +15,7 @@ spec = Gem::Specification.new do |s|
 
   s.has_rdoc          = false
 
-  s.files             = %w(init.rb) + Dir.glob("{tasks,generators}/**/*")
+  s.files             = Dir.glob("{tasks,generators,rails}/**/*")
 end
 
 Rake::GemPackageTask.new(spec) do |pkg|

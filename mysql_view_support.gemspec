@@ -2,13 +2,13 @@
 
 Gem::Specification.new do |s|
   s.name = %q{mysql_view_support}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tom Lea"]
   s.date = %q{2009-05-13}
   s.email = %q{contrib@tomlea.co.uk}
-  s.files = ["init.rb", "tasks/views.rake", "generators/sql_view_migration", "generators/sql_view_migration/sql_view_migration_generator.rb", "generators/sql_view_migration/templates", "generators/sql_view_migration/templates/migration.rb"]
+  s.files = ["tasks/views.rake", "generators/sql_view_migration", "generators/sql_view_migration/sql_view_migration_generator.rb", "generators/sql_view_migration/templates", "generators/sql_view_migration/templates/migration.rb", "rails/init.rb"]
   s.homepage = %q{http://labs.reevoo.com}
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.1}
